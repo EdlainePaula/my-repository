@@ -1,0 +1,20 @@
+@import url(Styles/header.css);
+@import url(Styles/main.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+:root{
+    --cor-textos: #667085;
+    --cor-secundaria:#8E2424;
+    --fonte: "Inter";
+}

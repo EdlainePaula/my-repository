@@ -1,0 +1,33 @@
+.informativo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px;
+    text-align: center;
+}
+
+
+.about{
+    color: var(--cor-secundaria);
+    font-size: 16px;
+    font-family: var(--fonte);
+    font-weight:600;
+}
+
+.subtitulo{
+    color: #101828;
+    font-size: 48px;
+    margin: 0.5em;
+    font-family: var(--fonte);
+    font-weight:600;
+
+}
+
+.paragrafo{
+    color: var(--cor-textos);
+    font-size: 20px;
+    font-family: var(--fonte);
+    font-weight: normal;
+    margin: 0 auto;
+    max-width: 800px;
+
+}

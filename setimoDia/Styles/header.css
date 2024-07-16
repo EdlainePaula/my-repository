@@ -1,0 +1,46 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 1.5em;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    vertical-align: middle; 
+    margin-right: 0.5em; 
+    
+}
+
+.logo-nome{
+    color: #3A404E; 
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--fonte);
+    margin-right: 5em; 
+    margin-left: .5em;
+}
+
+.menu-botoes{
+    color: var(--cor-textos);
+    font-size: 16px;
+    font-weight: medium;
+    font-family:'Inter', sans-serif;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.menu-botoes-cadastrar{
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: .6em;
+    background-color:var(--cor-secundaria);
+    color: #fff;
+}

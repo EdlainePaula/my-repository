@@ -1,0 +1,18 @@
+@import url(Styles/header.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+:root{
+    --cor-textos: #667085;
+    --fonte-botoes: "Inter";
+}

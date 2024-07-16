@@ -1,0 +1,248 @@
+.informativo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px;
+    text-align: center;
+}
+
+.about{
+    color: var(--cor-secundaria);
+    font-size: 16px;
+    font-family: var(--fonte);
+    font-weight:600;
+}
+
+.subtitulo{
+    color: #101828;
+    font-size: 48px;
+    padding: .2em;
+    font-family: var(--fonte);
+    font-weight:600;
+}
+
+.paragrafo{
+    color: var(--cor-textos);
+    font-size: 20px;
+    font-family: var(--fonte);
+    font-weight: normal;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.descritivo{
+    display: flex;
+    justify-content: center;
+    margin: 5em 0 5em 0;
+   
+
+   
+}
+
+.item{
+    text-align:start;
+   padding: 1em;
+   width: 100%;
+}
+
+.qnt{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: var(--fonte);
+    color: var(--cor-secundaria);
+    margin-bottom: 15px;
+}
+
+.subtiitulo-descritivo{
+    font-family: var(--fonte);
+    font-size: 18px;
+    font-weight: 500;
+    color: #101828;
+    margin-bottom: .5em;
+
+}
+
+.paragrafo-descritivo{
+    font-family: var(--fonte);
+    font-size: 16px;
+    color: var(--cor-textos);
+    max-width: 300px;
+}
+
+.secao-vagas{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.informativo-vagas{
+    font-family: var(--fonte);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor-secundaria);
+    border-radius: 16px;
+    padding: .3em;
+    background-color: #8e242410;
+}
+
+.secao-subtitulo{
+    font-family: var(--fonte);
+    font-size: 36px;
+    font-weight: 600;
+
+}
+
+.descricao{
+    font-family: var(--fonte);
+    font-size: 20px;
+    font-weight:400;
+    color: var(--cor-textos);
+
+}
+
+.img-vagas{
+    width: 1216px;
+    max-height: 400px;
+    margin-top: 2em;
+    max-width: 100%;
+}
+
+.vagas{
+    display: flex;
+    margin-left: 20%;
+    margin-bottom: 32px;
+    gap:32px;
+    flex-direction: column;
+    width: 90%;
+}
+
+.area-vaga{
+    margin-top: 32px;
+    font-size: 20px;
+    font-family: var(--fonte);
+    font-weight:500;
+    align-items: flex-start;
+}
+
+.titulo-vaga{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--fonte);
+    margin-bottom: 20px;
+}
+
+.bloco-vaga{
+    padding: 1.5em;
+    gap:10px;
+    border-radius: 16px;
+    border: .5px solid rgba(0, 0.1, 0.1, 0.1);
+    width: 70%;  
+}
+
+.informacao-vaga{
+    color: var(--cor-textos);
+    font-size: 16px;
+    font-weight: 400;  
+}
+
+.depoimentos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(195, 25, 25, 0.03);
+    gap: 20px;
+    padding: 64px;
+}
+
+
+.titulo-depoimentos{
+    color: var(--cor-secundaria);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.frase-depoimentos{
+    color: #101828;
+    font-size:medium;
+    font-size:36px;
+    font-weight:400;  
+}
+
+
+.nome-depoimento{
+    color: #101828;
+    font-size: 16px;
+    font-weight: 600;
+    padding:0;
+}
+
+.cargo-depoimento{
+    font-size: 14px;
+    color: var(--cor-textos);
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F9FAFB;
+    padding: 96px;
+    margin-top: 96px; 
+}
+
+.titulo-rodape{
+    font-size: 36px;
+    font-family: var(--fonte);
+    font-weight: 500;   
+}
+
+.paragrafo-rodape{
+    margin-top: 1em;
+    font-size: 20px;
+    color: var(--cor-textos);
+    font-weight: 400;
+    margin-bottom: 40px;
+   
+}
+
+
+.rodape-pesquisa{
+    width: 50%;
+    border-radius: 8px;
+    border: .5px solid rgba(0, 0.1, 0.1, 0.1);
+    padding: 12px 14px;
+    margin-left: 2em;
+
+}
+
+.texto-pesquisa{
+    font-size: 16px;
+    font-family: var(--fonte);
+    font-weight: 400;
+    color: var(--cor-textos);
+
+}
+
+.cadastro-rodape{
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    padding: .6em;
+    background-color:var(--cor-secundaria);
+    color: #fff;
+    margin-left: 16px;
+   
+}
+
+.desenvolvimento-rodape{
+    color: var(--cor-textos);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1em;
+}
